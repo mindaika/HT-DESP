@@ -2,17 +2,17 @@
 
 public class MenuItem
 {
-    private String _name;
-    private String _description;
+    private string _name;
+    private string _description;
     private double _price;
     private int _itemID;
 
-    public String Name
+    public string Name
     {
         get { return _name; }
     }
 
-    public String Description
+    public string Description
     {
         get { return _description; }
     }
@@ -27,7 +27,7 @@ public class MenuItem
         get { _itemID; }
     }
 
-	public MenuItem(String name, String description, double price, int itemID)
+	public MenuItem(string name, string description, double price, int itemID)
 	{
         _name = name;
         _description = description;
