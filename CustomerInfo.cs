@@ -10,14 +10,6 @@ public class CustomerInfo
     private string _city;
     private string _zip;
 
-    //Copy constructor
-    public CustomerInfo(CustomerInfo previousCustomerInfo)
-    {
-        _name = previousCustomerInfo.Name;
-        _address = previousCustomerInfo.Address;
-        _city = previousCustomerInfo.City;
-        _zip = previousCustomerInfo.Zip;
-    }
     public CustomerInfo(string name, string address, string city, string zip)
 	{
         _name = name;

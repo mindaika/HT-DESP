@@ -12,17 +12,6 @@ public class PaymentInfo
     private string _zip;
     private string _creditCard;
 
-    //Copy constuctor
-    public PaymentInfo(PaymentInfo previousPaymentInfo)
-    {
-        _name = previousPaymentInfo.Name;
-        _address = previousPaymentInfo.Address;
-        _city = previousPaymentInfo.City;
-        _state = previousPaymentInfo.State;
-        _zip = previousPaymentInfo.Zip;
-        _creditCard = previousPaymentInfo.CreditCard;
-    }
-
 	public PaymentInfo(string name, string address, string city, string state, string zip, string creditCard)
 	{
 		_name = name;
